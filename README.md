@@ -1,2 +1,2 @@
 # pagina-web-osiel
-Es una página que esta relacionado con el mundo
+El contenido de esta página tiene algunas cosas que estan relacionadas con el mundo
