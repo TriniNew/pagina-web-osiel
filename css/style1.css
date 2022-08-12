@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: cursive;
+}
+
+header{
+    position: relative;
+    margin: 20px auto;
+    width: 1000px;
+    height: 120px;
+    background: DeepSkyBlue;
+}
+
+#logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 200px;
+    height: 60px;
+    background: SpringGreen;
+    font-family: 'Kaushan Script', cursive;
+    border-radius: 0% 50px 0% 50px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.redes{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    background: #ccc;
+    border-radius: 100%;
+    position: absolute;
+    text-align: center;
+    line-height: 42px;
+}
+
+#icono1{
+    top: 42px;
+    right: 120px;
+    background: green;
+}
+
+#icono2{
+    top: 42px;
+    right: 71px;
+    background: white;
+}
+
+#icono3{
+    top: 42px;
+    right: 19px;
+    background: red;
+}
+
+nav{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 48px;
+}
+
+.botones{
+    float: left;
+    width: 329.3px;
+    margin: 2px 2px;
+    height: 48px;
+    background: Cyan;
+    position: relative;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+}
+
+.boton {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 60px;
+	background: black;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: .4s ease all;
+	position: relative;
+	overflow: hidden;
+}
+
+.boton::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: blue;
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 0;
+    transition: .4s ease-in-out all;
+}
+
+.boton:hover::after{
+    top: 0;
+}
+
+.boton span {
+	position: relative;
+	z-index: 2;
+	transition: .6s ease all;
+}
+
+#top{
+    position: relative;
+    margin: 20px auto;
+    width: 1000px;
+    height: 192px;
+}
+
+#top ul{
+    width: 1010px;
+    height: 192px;
+}
+
+#top ul li{
+    float: left;
+    width: 326px;
+    height: 192px;
+    background: #333;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#top ul li img{
+    width: 330px;
+    height: 192px;
+}
+
+section{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 453px;
+    background: Azure;
+}
+
+aside#izq{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    background: #333;
+}
+
+article{
+    position: relative;
+    left: 200px;
+    top: 0;
+    width: 600px;
+    height: 453px;
+    background: LightCyan;
+}
+
+article h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    margin: 20px;
+}
+
+article p{
+    margin: 5px 20px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+aside#der{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0px;
+    height: 0px;
+    background: #333;
+}
+
+footer{
+    position: relative;
+    margin: 30px auto;
+    width: 1000px;
+    height: 50px;
+    background: Gainsboro;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+}
